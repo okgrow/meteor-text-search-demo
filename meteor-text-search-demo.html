@@ -1,0 +1,23 @@
+<head>
+  <title>meteor-text-sort</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> search}}
+</body>
+
+<template name="search">
+  <form id="search">
+    <input type="text" id="searchValue" placeholder="Enter search terms here."/>
+    <button>Search</button>
+  </form>
+  <hr/>
+  <h1>Messages</h1>
+  <ol>
+    {{#each messages}}
+      <li>{{value}}</li>
+    {{/each}}
+  </ol>
+</template>
