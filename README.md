@@ -4,6 +4,8 @@ Meteor Text Search Demo
 This is a demo app, demonstrating how to perform a full text search in Meteor,
 by using MongoDB's `$text` operator.
 
+This is a companion to the article [Guide to Full Text Search in Meteor](https://www.okgrow.com/posts/guide-to-full-text-search-in-meteor)
+
 Running This App
 ----------------
 
